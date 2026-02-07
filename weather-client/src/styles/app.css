@@ -1,0 +1,54 @@
+/* Full page centering */
+body {
+  margin: 0;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #eef2f5;
+  font-family: Arial, sans-serif;
+}
+
+/* App container */
+.app {
+  width: 100%;
+  max-width: 420px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  padding: 8px;
+  width: 70%;
+  margin-right: 5px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.location-btn {
+  margin-top: 10px;
+}
+
+/* Weather card */
+.weather-card {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.error {
+  color: red;
+}
+
+
+.location-btn {
+  margin-top: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
